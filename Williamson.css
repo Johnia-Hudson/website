@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap');
+
+body {
+  font-family: monospace, arial;
+  position: relative;
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  background-color: ;
+}
+.everything_exc_foot {
+  margin-bottom: -65px;
+}
+nav {
+  background-color:#0799CF;
+  color: white;
+}
+
+.nav-item {
+  text-align: left;
+  float: right;
+  text-decoration: none
+}
+
+
+.navbar-brand {
+  font-family: 'Racing Sans One';
+  font-size:30px;
+}
+.img_j {
+  border: solid #0799CF 2px;
+  width: 15%;
+  margin: 5px;
+}
+.img_t {
+  width: 25px;
+  height: 15px;
+}
+h1 {
+  text-align: center;
+  color: #0799CF;
+  font-family:  'Racing Sans One';
+}
+.wtll {
+  color: #0799CF;
+}
+h3 {
+  color: #0799CF;
+}
+.email-us {
+  text-align: center;
+  color: #0799CF;
+}
+.worked {
+  text-align: center;
+}
+.strong {
+  text-align: center;
+}
+
+/** INDEX HEADER STYLES **/
+.btnbtn-info {
+  background-color: #0799CF;
+}
+.btnbtn-info:hover {
+  background-color: white;
+  border: solid #0799CF 1px;
+  color: #0799CF;
+  position:absolute;
+  transform: translate(-50%, -50%);
+}
+.header{
+  position: relative;
+  margin-bottom: 40px;
+}
+.header-content{
+  position: absolute;
+  top: 50%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+  text-align:center;
+}
+/** END HEADER STYLES**/
+
+/*SECTION 2 STYLES*/
+.section_2 {
+  
+}
+.section-content {
+  position: relative;
+  background-color: white;
+  border: solid 1px #0799CF;
+  width: 100%;
+  display: inline-block;
+}
+.section-words {
+  color: white;
+  padding: 10px;
+}
+.img_2 {
+  float: left;
+  margin: 10px;
+
+  width: 26%;
+  border-radius: 25px;
+}
+.section-background {
+  position: absolute;
+  background-color: #0799CF;
+  width: 100%;
+  height: 350px;
+  margin-bottom: 40px;
+}
+.section-subtitle {
+  padding-left: 35%;
+  display: inline-block;
+  color: white;
+  text-decoration: none !important;
+  text-align: center;
+  width: auto;
+  max-width: 100%;
+}
+.section-subtitle:hover {
+  color: white;
+  text-decoration: none !important;
+}
+.section-subtitle:visited {
+  color: white;
+  text-decoration: none;
+}
+.section-sub {
+  color: white;
+  padding-left: 35%;
+  white-space: nowrap;
+}
+/*END SECTION 2 STYLES*/
+
+
+.fa {
+  padding: 20px;
+  margin: 0;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+.fa-instagram:visited {
+  color: white;
+  text-decoration: none;
+}
+.fa-facebook-f {
+  color: white;
+  text-decoration: none;
+}
+.fa-facebook-f:hover {
+  color: white;
+}
+li:visited {
+  text-decoration: none;
+  color: gold;
+}
+.par {
+  display: inline;
+}
+
+
+.heading{
+  border: 2px solid white;
+  border-bottom-color: skyblue;
+}
+
+.img_1 {
+  height: 400px;
+  width: 100%;
+  object-fit:cover;
+}
+
+.customers {
+  font-family: 'Arial', monospace;
+  border-collapse: collapse;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+}
+
+ .customers td, .customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.customers tr:nth-child(even){
+      background-color: #f2f2f2;
+    }
+
+.customers tr:hover {background-color: #ddd;}
+
+.customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #0799cf;
+  color: white;
+}
+.based {
+  text-decoration: none;
+  color: black;
+  text-align: center !important;
+}
+.based:visited {
+  text-decoration: none;
+  color: black;
+  text-align: center !important;
+}
+.footer {
+  text-align: center;
+  background-color: #0799CF;
+  color: white; 
+  position: relative;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  height: 65px;
+  padding: 5px;
+  border-top: solid 5px white;
+}
+.i-footer {
+  position: fixed;
+  color: white;
+  width: 100%;
+  text-align: center;
+  background-color: #0799CF;
+  padding: 5px;
+  left: 0;
+  bottom: 0;
+  height: 65px;
+  border-top: solid 5px white;
+}
+
+@media screen and (max-width: 1000px) and (min-width: 400px){
+  .page-div {
+   text-align:left;
+   border:10px;
+  } 
+  }
+
+
+@media screen and (max-width: 2200px) and (min-width:1000px){
+
+   .group{
+  padding-left:80%;
+  font-size:17px;
+  text-decoration:none;
+}
+
+}
+
+@include media-breakpoint-up($next) {
+    .page-div {
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+    }
+}
